@@ -19,7 +19,6 @@ public class Metodos extends Mensajes {
         
     public void CambioOpciones(){
         mensaje("echo");
-        
     }
 
 

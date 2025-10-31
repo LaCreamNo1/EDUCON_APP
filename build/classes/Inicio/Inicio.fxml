@@ -29,7 +29,7 @@
                         <Font size="21.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnopciones" mnemonicParsing="false" onAction="#opciones" text="Opciones">
+                  <Button fx:id="btnopciones" mnemonicParsing="false" onAction="#abrirOtraVentana" text="Opciones">
                      <font>
                         <Font size="21.0" />
                      </font>
