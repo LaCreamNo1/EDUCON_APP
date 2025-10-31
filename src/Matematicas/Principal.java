@@ -4,7 +4,6 @@
  */
 package Matematicas;
 
-import Inicio.*;
 import educon_app.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -40,6 +40,7 @@ public class OpcionesController implements Initializable {
     @FXML
     private void btn1accion(ActionEvent event) {
         
+        
     }
 
     @FXML

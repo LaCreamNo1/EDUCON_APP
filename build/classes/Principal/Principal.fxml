@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Principal.PrincipalController">
+    <stylesheets>
+        <URL value="@principal.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="553.0" prefWidth="806.0">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="319.0" layoutY="177.0" prefHeight="200.0" prefWidth="169.0">
+               <children>
+                  <Label text="EDUCON" />
+                  <Button fx:id="btnInicio" mnemonicParsing="false" onAction="#Inicio" prefHeight="31.0" prefWidth="171.0" text="Inicio ▶">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnOpciones" mnemonicParsing="false" onAction="#Opciones" prefHeight="31.0" prefWidth="176.0" text="Opciones ⚙">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#Salir" prefHeight="31.0" prefWidth="169.0" text="Salir 📤">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

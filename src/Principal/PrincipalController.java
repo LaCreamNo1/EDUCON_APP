@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package Inicio;
+package Principal;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,14 +16,14 @@ import javafx.scene.control.Button;
  *
  * @author bebed
  */
-public class InicioController implements Initializable {
+public class PrincipalController implements Initializable {
 
     @FXML
-    private Button btninicio;
+    private Button btnInicio;
     @FXML
-    private Button btnopciones;
+    private Button btnOpciones;
     @FXML
-    private Button btnsalir;
+    private Button btnSalir;
 
     /**
      * Initializes the controller class.
@@ -34,18 +34,15 @@ public class InicioController implements Initializable {
     }    
 
     @FXML
-    private void inicio(ActionEvent event) {
-        System.out.println("Inicio");
+    private void Inicio(ActionEvent event) {
     }
 
     @FXML
-    private void opciones(ActionEvent event) {
-        System.out.println("Opciones");
+    private void Opciones(ActionEvent event) {
     }
 
     @FXML
-    private void salir(ActionEvent event) {
-        System.out.println("Salir");
+    private void Salir(ActionEvent event) {
     }
     
 }
