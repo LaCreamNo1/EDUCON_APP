@@ -4,6 +4,7 @@
  */
 package Inicio;
 
+import Metodos.Metodos;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -18,6 +19,7 @@ import javafx.scene.control.Button;
  */
 public class InicioController implements Initializable {
 
+    Metodos objMensj = new Metodos();
     @FXML
     private Button btninicio;
     @FXML
@@ -35,12 +37,13 @@ public class InicioController implements Initializable {
 
     @FXML
     private void inicio(ActionEvent event) {
-        System.out.println("Inicio");
+        objMensj.CambioOpciones();
     }
 
     @FXML
     private void opciones(ActionEvent event) {
         System.out.println("Opciones");
+        
     }
 
     @FXML
