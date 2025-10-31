@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="843.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Inicio.InicioController">
+    <stylesheets>
+        <URL value="@inicio.css" />
+    </stylesheets>
+    <children>
+      <Pane prefHeight="603.0" prefWidth="843.0">
+         <children>
+            <Label layoutX="353.0" layoutY="14.0" text="EDUCON">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" layoutX="231.0" layoutY="202.0" prefHeight="200.0" prefWidth="382.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btninicio" mnemonicParsing="false" onAction="#inicio" text="Inicio">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnopciones" mnemonicParsing="false" onAction="#abrirOtraVentana" text="Opciones">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnsalir" mnemonicParsing="false" onAction="#salir" text="Salir">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
