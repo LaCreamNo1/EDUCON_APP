@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="705.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Opciones.OpcionesController">
+    <stylesheets>
+        <URL value="@opciones.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="91.0" layoutY="72.0" prefHeight="349.0" prefWidth="523.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="177.0" layoutY="37.0" prefHeight="275.0" prefWidth="169.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btn1" depthTest="ENABLE" mnemonicParsing="false" onAction="#btn1accion" prefHeight="39.0" prefWidth="177.0" text="Geografia" />
+                  <Button fx:id="btn2" mnemonicParsing="false" onAction="#btn2accion" prefHeight="39.0" prefWidth="178.0" text="Geometria" />
+                  <Button fx:id="btn3" mnemonicParsing="false" onAction="#btn3accion" prefHeight="39.0" prefWidth="185.0" text="Espanol" />
+                  <Button fx:id="btn4" mnemonicParsing="false" onAction="#btn4accion" prefHeight="39.0" prefWidth="182.0" text="Matematicas" />
+                  <Button fx:id="btn5" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btn5accion" prefHeight="39.0" prefWidth="185.0" text="Salir" />
+               </children>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+            </VBox>
+         </children>
+      </Pane>
+      <Label contentDisplay="CENTER" graphicTextGap="8.0" layoutX="258.0" layoutY="51.0" text="Que quisieras aprender hoy?">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
