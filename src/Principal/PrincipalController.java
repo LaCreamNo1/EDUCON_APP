@@ -1,8 +1,9 @@
+package Principal;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package Inicio;
 
 import Metodos.Metodos;
 import java.net.URL;
@@ -21,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author bebed
  */
-public class InicioController implements Initializable {
+public class PrincipalController implements Initializable {
 
     Metodos objMensj = new Metodos();
     @FXML
