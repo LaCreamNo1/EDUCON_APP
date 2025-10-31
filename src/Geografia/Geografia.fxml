@@ -12,18 +12,18 @@
     <stylesheets>
         <URL value="@geografia.css" />
     </stylesheets>
-   <children>
-      <Pane prefHeight="592.0" prefWidth="869.0">
-         <children>
-            <ImageView fitHeight="577.0" fitWidth="718.0" layoutX="76.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Fondo%20navegador.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="414.0" layoutY="21.0" text="Geografia" />
-            <Button fx:id="btnlozalizar" layoutX="414.0" layoutY="517.0" mnemonicParsing="false" onAction="#localizar" text="Localizar" />
-            <Button fx:id="btnvolver" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
-         </children>
-      </Pane>
-   </children>
+    <children>
+        <Pane prefHeight="592.0" prefWidth="869.0">
+            <children>
+                <ImageView fitHeight="577.0" fitWidth="718.0" layoutX="76.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Fondo%20navegador.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="414.0" layoutY="21.0" text="Geografia" />
+                <Button fx:id="btnlozalizar" layoutX="414.0" layoutY="517.0" mnemonicParsing="false" onAction="#localizar" text="Localizar" />
+                <Button fx:id="btnvolver" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
+            </children>
+        </Pane>
+    </children>
 </AnchorPane>
